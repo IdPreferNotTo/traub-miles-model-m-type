@@ -175,7 +175,7 @@ int main(int argc, char *argv[]) {
     float e_kick = atof(argv[2]);
     bool kicked = false;
 
-    float Dv = 0.0;
+    float Dv = 1.0;
     float Dn = 0.0;
     double v0 = 0.;
     double n0 = 0.;
